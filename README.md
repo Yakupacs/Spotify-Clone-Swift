@@ -7,4 +7,6 @@ A music listening platform that has taken its design from the Spotify app, where
 
 --------
 ## Video
-<img width=200 src="https://user-images.githubusercontent.com/73075252/206859882-1a443405-9ce6-4304-9dd7-ecbaa8205d8c.gif">
+
+https://github.com/Yakupacs/Spotify-Clone-Swift/assets/73075252/203d4f2b-4aab-450c-809f-d68654dd9c20
+
