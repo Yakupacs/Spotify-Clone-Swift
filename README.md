@@ -1,5 +1,5 @@
 <h1 align="center">
-     DEAFY MUSIC APP
+     SPOTIFY CLONE
 </h1>
 
 ## Description
