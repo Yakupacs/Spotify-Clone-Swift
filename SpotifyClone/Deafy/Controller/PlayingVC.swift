@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerPlayMusic: UIViewController {
+class PlayingVC: UIViewController {
     
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!

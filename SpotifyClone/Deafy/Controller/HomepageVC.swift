@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewControllerHomePage: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class HomepageVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var collectionViewEnglish: UICollectionView!
     @IBOutlet weak var collectionViewTurkish: UICollectionView!
@@ -60,7 +60,7 @@ class ViewControllerHomePage: UIViewController, UICollectionViewDelegate, UIColl
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toPlayMusic"{
-            let destVC = segue.destination as! ViewControllerPlayMusic
+            let destVC = segue.destination as! PlayingVC
             destVC.music = musicSelected
         }
     }

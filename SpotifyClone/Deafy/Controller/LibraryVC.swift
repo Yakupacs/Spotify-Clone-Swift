@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerMusicLibrary: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class LibraryVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -43,7 +43,7 @@ class ViewControllerMusicLibrary: UIViewController, UITableViewDelegate, UITable
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toPlayMusic"{
-            let destVC = segue.destination as! ViewControllerPlayMusic
+            let destVC = segue.destination as! PlayingVC
             destVC.music = musicSelected
         }
     }

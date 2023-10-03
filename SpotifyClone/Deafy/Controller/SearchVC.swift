@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerSearch: UIViewController, UITableViewDelegate,  UITableViewDataSource, UISearchBarDelegate {
+class SearchVC: UIViewController, UITableViewDelegate,  UITableViewDataSource, UISearchBarDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
@@ -44,7 +44,7 @@ class ViewControllerSearch: UIViewController, UITableViewDelegate,  UITableViewD
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toPlayMusic"{
-            let destVC = segue.destination as! ViewControllerPlayMusic
+            let destVC = segue.destination as! PlayingVC
             destVC.music = musicSelected
         }
     }

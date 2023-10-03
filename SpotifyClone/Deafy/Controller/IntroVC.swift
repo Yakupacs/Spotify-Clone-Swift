@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerIntro: UIViewController {
+class IntroVC: UIViewController {
 
     var timer = Timer()
     var count = 3
